@@ -1,1 +1,1 @@
-# DinoZBash
+# dino-dash
