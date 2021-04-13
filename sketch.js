@@ -112,14 +112,14 @@ dino2.y=dino2.y-24
                         dino2.velocityY=7 
                          }
                          
-                         if(keyDown("E")&&(dino1.collide(dino2))){
-                            score1=score1-1  
-                            
-                             }
+                        
                              if((keyDown)("O")&&(dino2.collide(dino1 ))){
                                 score=score-1
                                  }
- 
+  if(keyDown("E")&&(dino1.collide(dino2))){
+                            score1=score1-1  
+                            
+                             } 
 
                         
 dino2.velocityY=dino2.velocityY+0.9
