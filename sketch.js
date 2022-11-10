@@ -82,33 +82,33 @@ dino1.y=dino1.y-24
 if(keyDown("I")){
 dino2.y=dino2.y-24
  }
- if(keyDown("A")){
+ else if(keyDown("A")){
     dino1.x=dino1.x-7
     dino1.addImage(dino2Img)
     rocket2.addImage(rocketImg)
     rocket2.scale=0.4
     
      }
-     if(keyDown("D")){
+     else if(keyDown("D")){
         dino1.x=dino1.x+7
         dino1.addImage(dino1Img)
         rocket2.addImage(rocketImg1)
         rocket2.scale=0.4
          }
-         if(keyDown("J")){
+         else if(keyDown("J")){
             (dino2.x=dino2.x-9) 
             dino2.addImage(dino2Img) 
             rocket2.addImage(rocketImg)
         rocket2.scale=0.4
              }
-             if(keyDown("L")){
+             else if(keyDown("L")){
                 dino2.x=dino2.x+7
                 dino2.addImage(dino1Img)
                 rocket2.addImage(rocketImg1)
         rocket2.scale=0.4
-                 }if(keyDown("K")){
+                 }else if(keyDown("K")){
                     dino1.y.velocityY=7
-                     }if(keyDown("S")){
+                     }else if(keyDown("S")){
                         dino2.velocityY=7 
                          }
                          
